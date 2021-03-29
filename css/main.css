@@ -453,6 +453,10 @@ header .badges .badge {
     transition: height .4s;
 }
 
+.notice .promotion.hide {
+    height: 0;
+}
+
 .notice .promotion .swiper-container {
     width: calc(819px * 3 + 10px * 2);
     height: 553px;
